@@ -1,7 +1,7 @@
-function circumference_metrics(radius)
+function circumference_measurements(radius)
     perimeter = 2*pi*radius
     area = pi*radius^2
     return perimeter, area
 end
 
-println(circumference_metrics(8))
+println(circumference_measurements(8))
