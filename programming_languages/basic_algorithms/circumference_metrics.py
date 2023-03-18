@@ -3,7 +3,7 @@ from math import pi
 
 def circumference_metrics(radius):
     perimeter = 2*pi*radius
-    area = pi*radius**2
+    area = pi * pow(radius, 2)
     return perimeter, area
 
 
