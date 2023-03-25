@@ -1,10 +1,10 @@
-## Definição utilizando a função de perda quadrática
+## Definição de média utilizando a função de perda quadrática
 
 $$f(\mu) = \sum_{i=1}^{n}(y_i - \mu)^2$$
 
 $$\mu = \min \sum_{i=1}^{n}(y_i - \mu)^2$$
 
-## Demonstração da média utilizando a perda quadrática
+## Demonstração da fórmula da média utilizando a função de perda quadrática
 
 $$\sum_{i=1}^{n}(y_i - \mu)^2 = 2\sum_{i=1}^{n}(y_i - \mu)$$
 
